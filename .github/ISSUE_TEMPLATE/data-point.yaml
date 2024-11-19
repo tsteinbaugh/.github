@@ -1,0 +1,21 @@
+name: Data Point
+description: Enter data point.
+labels: ["data"]
+title: "[data]: "
+body:
+  - type: textarea
+    id: information
+    attributes:
+      label: data information
+      description: Add information about the data.
+      placeholder: Russia has 50,000 cubic feet of natural gas reserves/
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: event source
+      description: Where did you find the data point?
+      placeholder: "Book: Atlas Shrugged"
+    validations:
+      required: false
