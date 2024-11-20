@@ -4,12 +4,13 @@ labels: ["event"]
 title: "[event]: "
 body:
   - type: input
+    id: event-date
     attributes:
       label: event date
       description: Enter date of event.
       placeholder: "07 July 1774"
   - type: textarea
-    id: information
+    id: event-information
     attributes:
       label: event information
       description: Add information about the event.
@@ -17,10 +18,18 @@ body:
     validations:
       required: true
   - type: textarea
-    id: source
+    id: event-source
     attributes:
       label: event source
-      description: Where did you find the information about this event?
-      placeholder: "Book: Atlas Shrugged"
+      description: Enter source issue ID
+      placeholder: "#154"
+    validations:
+      required: false
+  - type: textarea
+    id: event-ref
+    attributes:
+      label: event ref
+      description: Add any references to already existing issue items
+      placeholder: "#155"
     validations:
       required: false
