@@ -4,25 +4,25 @@ labels: ["data"]
 title: "[data]: "
 body:
   - type: textarea
-    id: event-information
+    id: data-information
     attributes:
-      label: event information
+      label: data information
       description: Add information about the data.
       placeholder: Russia has 50,000 cubic feet of natural gas reserves/
     validations:
       required: true
   - type: textarea
-    id: event-source
+    id: data-source
     attributes:
-      label: event source
+      label: data source
       description: Enter source issue ID
       placeholder: "#154"
     validations:
       required: false
   - type: textarea
-    id: event-ref
+    id: data-ref
     attributes:
-      label: event ref
+      label: data ref
       description: Add any references to already existing issue items
       placeholder: "#155"
     validations:
