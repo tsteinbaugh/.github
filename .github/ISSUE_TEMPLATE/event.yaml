@@ -18,14 +18,6 @@ body:
     validations:
       required: true
   - type: textarea
-    id: event-source
-    attributes:
-      label: event source
-      description: Enter source issue ID
-      placeholder: "#154"
-    validations:
-      required: false
-  - type: textarea
     id: event-ref
     attributes:
       label: event ref
