@@ -12,14 +12,6 @@ body:
     validations:
       required: true
   - type: textarea
-    id: data-source
-    attributes:
-      label: data source
-      description: Enter source issue ID
-      placeholder: "#154"
-    validations:
-      required: false
-  - type: textarea
     id: data-ref
     attributes:
       label: data ref
