@@ -4,10 +4,18 @@ labels: ["Q/T"]
 title: "[Q/T]: "
 body:
   - type: textarea
-    id: information
+    id: QT-information
     attributes:
       label: Question/Thought
       description: Enter your question or thought
       placeholder: What makes the sun shine?
     validations:
       required: true
+  - type: textarea
+    id: QT-ref
+    attributes:
+      label: QT ref
+      description: Add any references to already existing issue items
+      placeholder: "#155"
+    validations:
+      required: false
