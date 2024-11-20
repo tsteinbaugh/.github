@@ -4,10 +4,18 @@ labels: ["POI"]
 title: "[POI]: "
 body:
   - type: textarea
-    id: information
+    id: POI-information
     attributes:
       label: POI information
       description: Add information about the person, why was this person important?
       placeholder: Discovered oil.
     validations:
       required: true
+  - type: textarea
+    id: POI-ref
+    attributes:
+      label: POI ref
+      description: Add any references to already existing issue items
+      placeholder: "#155"
+    validations:
+      required: false
