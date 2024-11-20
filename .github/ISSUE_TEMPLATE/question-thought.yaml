@@ -1,0 +1,13 @@
+name: Question/Thought
+description: Enter your question/thought
+labels: ["Q/T"]
+title: "[Q/T]: "
+body:
+  - type: textarea
+    id: information
+    attributes:
+      label: Question/Thought
+      description: Enter your question or thought
+      placeholder: What makes the sun shine?
+    validations:
+      required: true

@@ -1,0 +1,53 @@
+name: Source
+description: Enter source information below.
+labels: ["source"]
+title: "[source]: "
+body:
+  - type: textarea
+    id: source-type
+    attributes:
+      label: source type
+      description: Type of source
+      placeholder: Book
+    validations:
+      required: true
+  - type: textarea
+    id: source-title
+    attributes:
+      label: source title
+      description: Title of the source
+      placeholder: "Atlas Shrugged"
+    validations:
+      required: true
+  - type: textarea
+    id: source-date-pub
+    attributes:
+      label: source date publication
+      description: Date of publication
+      placeholder: 19 Nov 2024 or 2024
+    validations:
+      required: true
+  - type: textarea
+    id: source-author
+    attributes:
+      label: source author
+      description: Author of the source
+      placeholder: JRR Tolkien
+    validations:
+      required: true
+  - type: textarea
+    id: source-date-accessed
+    attributes:
+      label: source date accessed
+      description: Date source was accessed
+      placeholder: 19 Nov 2024 or 2024
+    validations:
+      required: true
+  - type: textarea
+    id: source-url
+    attributes:
+      label: source url
+      description: If an online source, provide URL
+      placeholder: www.iea.org
+    validations:
+      required: false

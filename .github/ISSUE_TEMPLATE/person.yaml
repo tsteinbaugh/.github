@@ -1,0 +1,13 @@
+name: Person of Interest
+description: Enter name and information of person.
+labels: ["POI"]
+title: "[POI]: "
+body:
+  - type: textarea
+    id: information
+    attributes:
+      label: POI information
+      description: Add information about the person, why was this person important?
+      placeholder: Discovered oil.
+    validations:
+      required: true

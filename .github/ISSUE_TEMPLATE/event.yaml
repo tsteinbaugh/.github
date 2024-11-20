@@ -1,0 +1,26 @@
+name: Event
+description: Enter event title, date, and description.
+labels: ["event"]
+title: "[event]: "
+body:
+  - type: input
+    attributes:
+      label: event date
+      description: Enter date of event.
+      placeholder: "07 July 1774"
+  - type: textarea
+    id: information
+    attributes:
+      label: event information
+      description: Add information about the event.
+      placeholder: Oil discovered.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: event source
+      description: Where did you find the information about this event?
+      placeholder: "Book: Atlas Shrugged"
+    validations:
+      required: false
